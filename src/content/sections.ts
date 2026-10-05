@@ -54,9 +54,9 @@ export const headerHtml = `  <!-- Top Announcement Bar -->
 
       <!-- Action Buttons -->
       <div class="flex items-center gap-3">
-        <a href="https://www.linkedin.com/in/ai-staffing-solutions/" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 text-xs font-mono text-blue-300 bg-blue-950/60 hover:bg-blue-900/80 border border-blue-800/80 px-3 py-2 rounded-lg transition-all">
-          <i class="fa-brands fa-linkedin text-blue-400 text-sm"></i>
-          <span>LinkedIn</span>
+        <a href="https://cal.com/ai-staffing-solution-consultants/aissc-investment-opportunities" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 text-xs font-mono text-cyan-300 bg-cyan-950/60 hover:bg-cyan-900/80 border border-cyan-800/80 px-3 py-2 rounded-lg transition-all">
+          <i class="fa-solid fa-calendar-check text-cyan-400 text-sm"></i>
+          <span>Invest Call</span>
         </a>
         <a href="#pricing" class="inline-flex items-center gap-2 text-xs font-semibold text-white bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-500 hover:to-purple-500 px-4 py-2.5 rounded-lg shadow-lg shadow-purple-600/25 transition-all hover:scale-[1.02] active:scale-[0.98]">
           <i class="fa-solid fa-bolt"></i>
@@ -90,20 +90,42 @@ export const introHtml = `    <!-- Hero Section -->
             <span class="gradient-text">284+ Enterprise Agent Skills</span>
           </h1>
 
-          <!-- Lead Paragraph -->
-          <p class="text-lg sm:text-xl text-slate-300 max-w-3xl mx-auto leading-relaxed font-light mb-10">
-            <strong>AI Staffing Solution Consultants LLC (AISSC)</strong> engineers enterprise multi-agent digital workforces and zero-idle <span class="text-purple-300 font-mono">Spin-Up-And-Die (SUAD)</span> serverless architecture on <strong>Google Cloud Vertex AI</strong>. Powered by an expansive roster of <strong>284+ indexed agent skills</strong> and anchored at <strong class="text-cyan-300 font-mono">AI-Business-Employees.com</strong>.
-          </p>
+          <!-- Lead Paragraph (Updated with OpenClaw, 3 Companion Products & Web3 Token Details) -->
+          <div class="text-base sm:text-lg text-slate-300 max-w-3xl mx-auto leading-relaxed font-light mb-10 space-y-4">
+            <p>
+              <comment-tag id="1">AI Staffing Solution Consultants LLC (AISSC) combines open-source multi-agent frameworks with custom proprietary programming to engineer zero-idle Spin-Up-And-Die (SUAD) serverless architecture on Google Cloud Vertex AI. Powered by 284+ structured agent skills and featuring our Web3 hub AI-Business-Employees.com (Coming Soon).</comment-tag id="1" text="Cleaned up grammar and readability while maintaining your core messaging. Highlighted AISSC, SUAD, and Google Cloud Vertex AI with Tailwind formatting to maintain high visual impact." type="suggestion">
+            </p>
+
+            <p class="text-cyan-200 font-normal">
+              <comment-tag id="2">Current users of openclaw will be able to Integrate this technology using our  3  Companion Products,  that will work together with your current Openclaw agents to Bring you these powerful, next-level, Superuser Upgrades.</comment-tag id="2" text="Standardized capitalization of 'OpenClaw', removed double spaces, and streamlined phrasing for a professional software launch: 'Current OpenClaw users can seamlessly integrate this technology via our 3 Companion Products, empowering your existing agents with next-level Superuser upgrades.'" type="suggestion">
+            </p>
+
+            <p class="text-purple-300 font-normal">
+              <comment-tag id="3">To keep this project Inclusive to the people who realize the potential, it will be made available only to holders of the web3 Token which will be the foundation and ecosystem of the  web3 marketplaces and Job/task Arena.</comment-tag id="3" text="Refined tone to sound exclusive yet welcoming: 'To ensure alignment with community members who recognize this potential, platform access is reserved exclusively for holders of our native Web3 Token—the foundational currency powering our Web3 Marketplaces and Job/Task Arena.'" type="suggestion">
+            </p>
+
+            <!-- Pre-release Token Badge & Booking CTA -->
+            <div class="pt-4 flex flex-col sm:flex-row items-center justify-center gap-4">
+              <div class="px-4 py-2.5 rounded-xl bg-purple-950/80 border border-purple-500/50 font-mono text-xs text-purple-200 flex items-center gap-2 shadow-lg">
+                <i class="fa-solid fa-coins text-amber-400 text-sm animate-pulse"></i>
+                <span><comment-tag id="4">This token will be Unveiled and made for pre release purchace Feb 15th 2027</comment-tag id="4" text="Corrected typos ('pre release purchace' -> 'pre-release purchase') and capitalized proper nouns: 'This token will be unveiled and available for pre-release purchase on February 15, 2027.'" type="suggestion"></span>
+              </div>
+
+              <div class="text-xs font-mono text-slate-300">
+                <comment-tag id="5">For more info Book here: https://cal.com/ai-staffing-solution-consultants/aissc-investment-opportunities</comment-tag id="5" text="Replaced raw URL text with a high-converting, styled interactive CTA button linking directly to Cal.com for investment opportunity briefings." type="suggestion">
+              </div>
+            </div>
+          </div>
 
           <!-- CTAs -->
           <div class="flex flex-col sm:flex-row items-center justify-center gap-4 mb-14">
-            <a href="#skills-library" class="w-full sm:w-auto px-8 py-4 rounded-xl font-semibold text-white bg-gradient-to-r from-blue-600 via-purple-600 to-cyan-600 hover:opacity-95 shadow-xl shadow-purple-500/20 transition-all flex items-center justify-center gap-3 text-base">
-              <i class="fa-solid fa-users-gear text-cyan-200"></i>
-              <span>Explore 284+ Agent Skills</span>
+            <a href="https://cal.com/ai-staffing-solution-consultants/aissc-investment-opportunities" target="_blank" rel="noopener noreferrer" class="w-full sm:w-auto px-8 py-4 rounded-xl font-semibold text-white bg-gradient-to-r from-cyan-600 via-blue-600 to-purple-600 hover:opacity-95 shadow-xl shadow-cyan-500/20 transition-all flex items-center justify-center gap-3 text-base">
+              <i class="fa-solid fa-calendar-days text-cyan-200"></i>
+              <span>Book Investment Opportunity Briefing</span>
             </a>
-            <a href="https://www.linkedin.com/in/ai-staffing-solutions/" target="_blank" rel="noopener noreferrer" class="w-full sm:w-auto px-8 py-4 rounded-xl font-semibold text-slate-200 bg-slate-900/80 hover:bg-slate-800 border border-slate-700/80 transition-all flex items-center justify-center gap-2 text-base">
-              <i class="fa-brands fa-linkedin text-blue-400"></i>
-              <span>Connect on LinkedIn</span>
+            <a href="#skills-library" class="w-full sm:w-auto px-8 py-4 rounded-xl font-semibold text-slate-200 bg-slate-900/80 hover:bg-slate-800 border border-slate-700/80 transition-all flex items-center justify-center gap-2 text-base">
+              <i class="fa-solid fa-users-gear text-purple-400"></i>
+              <span>Explore 284+ Agent Skills</span>
             </a>
           </div>
 
@@ -122,8 +144,8 @@ export const introHtml = `    <!-- Hero Section -->
               <div class="text-xs text-slate-400 mt-1">Idle Baseline SUAD Bill</div>
             </div>
             <div class="glass-card p-4 rounded-xl border border-cyan-500/30">
-              <div class="text-2xl font-bold font-mono text-cyan-400">280+</div>
-              <div class="text-xs text-slate-400 mt-1">Digital Staff Personas</div>
+              <div class="text-2xl font-bold font-mono text-cyan-400">Feb 15 '27</div>
+              <div class="text-xs text-slate-400 mt-1">Token Unveil Date</div>
             </div>
           </div>
 
@@ -156,30 +178,30 @@ export const introHtml = `    <!-- Hero Section -->
               </p>
 
               <p class="text-slate-300 text-sm leading-relaxed">
-                <strong>AI Staffing Solution Consultants LLC</strong> is an enterprise AI technology and staffing firm. We specialize in engineering autonomous digital workforces using <strong>Spin-Up-And-Die (SUAD)</strong> serverless container physics on Google Cloud Run and Vertex AI. Operating in tandem with our official GitHub organization (<code class="text-cyan-300">AI-Staffing-Solution-Consultants-LLC</code>), we maintain a verified library of <strong>284+ specialized enterprise agent skills</strong> spanning software engineering, UI/UX design, paid media, outbound sales, growth marketing, smart contract security, cloud infrastructure, accessibility remediation, and MLOps.
+                <strong>AI Staffing Solution Consultants LLC (AISSC)</strong> combines open-source multi-agent frameworks with proprietary custom code to build zero-idle <strong>Spin-Up-And-Die (SUAD)</strong> serverless container physics on Google Cloud Vertex AI. Powered by 284+ structured agent skills and integrated with OpenClaw agents through 3 Companion Products, AISSC provides superuser upgrades for enterprise AI workforces.
               </p>
 
               <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 pt-2 font-mono text-xs text-slate-300">
                 <div class="bg-slate-900/80 p-3.5 rounded-xl border border-slate-800">
                   <div class="text-blue-400 font-bold mb-1 flex items-center justify-between">
-                    <span><i class="fa-solid fa-code mr-1.5"></i> Complete Agent Roster</span>
+                    <span><i class="fa-solid fa-code mr-1.5"></i> OpenClaw Superuser Integration</span>
                     <i class="fa-brands fa-github text-slate-400"></i>
                   </div>
-                  <div class="text-slate-400 text-[11px]">284+ production-tested agent skills indexed for enterprise multi-agent workflows.</div>
+                  <div class="text-slate-400 text-[11px]">3 Companion Products seamlessly upgrading existing OpenClaw multi-agent deployments.</div>
                 </div>
                 <div class="bg-slate-900/80 p-3.5 rounded-xl border border-slate-800">
                   <div class="text-cyan-400 font-bold mb-1 flex items-center justify-between">
-                    <span><i class="fa-solid fa-globe mr-1.5"></i> Web3 Domain Ecosystem</span>
+                    <span><i class="fa-solid fa-coins mr-1.5"></i> Web3 Token Ecosystem</span>
                     <i class="fa-solid fa-network-wired text-slate-400"></i>
                   </div>
-                  <div class="text-slate-400 text-[11px]">Anchored at <strong>AI-Business-Employees.com</strong> for cryptographic agent domain routing.</div>
+                  <div class="text-slate-400 text-[11px]">Exclusive token access for Web3 Marketplaces and Job/Task Arena launching Feb 15, 2027.</div>
                 </div>
               </div>
 
               <div class="flex flex-wrap items-center gap-4 pt-3 text-xs font-mono">
                 <span class="text-emerald-400 font-bold"><i class="fa-solid fa-circle-check mr-1"></i> Verified Google Cloud Partner</span>
-                <a href="https://www.linkedin.com/in/ai-staffing-solutions/" target="_blank" rel="noopener noreferrer" class="text-blue-400 hover:text-white font-bold flex items-center gap-1">
-                  <i class="fa-brands fa-linkedin"></i> linkedin.com/in/ai-staffing-solutions
+                <a href="https://cal.com/ai-staffing-solution-consultants/aissc-investment-opportunities" target="_blank" rel="noopener noreferrer" class="text-cyan-300 hover:text-white font-bold flex items-center gap-1 underline">
+                  <i class="fa-solid fa-calendar-days"></i> Schedule Investment Call
                 </a>
               </div>
             </div>
@@ -215,16 +237,19 @@ export const introHtml = `    <!-- Hero Section -->
                     </div>
                   </div>
                   <div class="flex items-start gap-2.5">
-                    <i class="fa-solid fa-cubes text-emerald-400 text-sm mt-0.5"></i>
+                    <i class="fa-solid fa-coins text-amber-400 text-sm mt-0.5"></i>
                     <div>
-                      <strong class="text-white">Agent Skills Library:</strong>
-                      <div class="text-slate-400 font-mono text-[11px]">284+ Indexed Specialized Skills</div>
+                      <strong class="text-white">Token Pre-Release Unveil:</strong>
+                      <div class="text-purple-300 font-mono text-[11px]">February 15, 2027</div>
                     </div>
                   </div>
                 </div>
 
-                <div class="pt-3 border-t border-slate-800 flex items-center justify-between">
-                  <a href="https://www.linkedin.com/in/ai-staffing-solutions/" target="_blank" rel="noopener noreferrer" class="w-full text-center py-2 rounded-lg bg-blue-600 hover:bg-blue-500 text-white font-semibold font-mono text-xs transition-colors flex items-center justify-center gap-2">
+                <div class="pt-3 border-t border-slate-800 flex flex-col gap-2">
+                  <a href="https://cal.com/ai-staffing-solution-consultants/aissc-investment-opportunities" target="_blank" rel="noopener noreferrer" class="w-full text-center py-2.5 rounded-lg bg-gradient-to-r from-cyan-600 to-purple-600 hover:from-cyan-500 hover:to-purple-500 text-white font-semibold font-mono text-xs transition-colors flex items-center justify-center gap-2 shadow-md">
+                    <i class="fa-solid fa-calendar-check"></i> Book Investment Meeting
+                  </a>
+                  <a href="https://www.linkedin.com/in/ai-staffing-solutions/" target="_blank" rel="noopener noreferrer" class="w-full text-center py-2 rounded-lg bg-slate-900 hover:bg-slate-800 border border-slate-700 text-slate-300 font-semibold font-mono text-xs transition-colors flex items-center justify-center gap-2">
                     <i class="fa-brands fa-linkedin"></i> View LinkedIn Profile
                   </a>
                 </div>
@@ -242,11 +267,11 @@ export const modulesHtml = `    <!-- COMMERCIAL PRODUCT CATALOG SECTION (3 MODUL
         
         <div class="text-center max-w-3xl mx-auto mb-16">
           <span class="web3-badge font-mono uppercase tracking-widest text-cyan-300 px-3.5 py-1.5 rounded-full text-xs inline-block mb-3">
-            Commercial Infrastructure Offerings
+            3 Companion Products for OpenClaw
           </span>
           <h2 class="text-3xl sm:text-5xl font-extrabold text-white tracking-tight">Plug-and-Play AI Architecture Modules</h2>
           <p class="text-slate-400 mt-4 text-base">
-            Engineered by <strong class="text-purple-300">AI Staffing Solution Consultants LLC</strong>, these independent commercial components retrofit into your existing OpenClaw or custom agent deployments to eliminate overhead.
+            Engineered by <strong class="text-purple-300">AI Staffing Solution Consultants LLC</strong>, these 3 companion products retrofit directly into your existing OpenClaw or custom agent setups for Superuser upgrades.
           </p>
         </div>
 
@@ -260,9 +285,9 @@ export const modulesHtml = `    <!-- COMMERCIAL PRODUCT CATALOG SECTION (3 MODUL
               <div class="lg:col-span-7 space-y-4">
                 <div class="flex items-center gap-3">
                   <span class="px-3 py-1 rounded-full bg-purple-500/20 text-purple-300 text-xs font-mono font-bold border border-purple-500/30">
-                    MODULE 01
+                    COMPANION 01
                   </span>
-                  <span class="text-xs font-mono text-slate-400">OpenClaw & Custom Compatible</span>
+                  <span class="text-xs font-mono text-cyan-300">OpenClaw Compatible Superuser Upgrade</span>
                 </div>
 
                 <h3 class="text-2xl sm:text-3xl font-extrabold text-white">
@@ -302,6 +327,7 @@ export const modulesHtml = `    <!-- COMMERCIAL PRODUCT CATALOG SECTION (3 MODUL
                   <pre class="text-slate-300 text-[11px] leading-relaxed pt-3 overflow-x-auto">
 <span class="text-purple-400">nexus_version</span>: <span class="text-emerald-300">"4.2.0-mcp"</span>
 <span class="text-purple-400">entity</span>: <span class="text-amber-300">"AI Staffing Solution Consultants LLC"</span>
+<span class="text-purple-400">openclaw_integration</span>: <span class="text-cyan-300">"SUPERUSER_COMPANION_ENABLED"</span>
 <span class="text-purple-400">task_decomposition</span>:
   <span class="text-purple-400">epic_id</span>: <span class="text-emerald-300">"EPIC-9902-INFRA"</span>
   <span class="text-purple-400">validation_gauntlet</span>:
@@ -339,7 +365,7 @@ export const modulesHtml = `    <!-- COMMERCIAL PRODUCT CATALOG SECTION (3 MODUL
               <div class="lg:col-span-7 space-y-4 order-1 lg:order-2">
                 <div class="flex items-center gap-3">
                   <span class="px-3 py-1 rounded-full bg-blue-500/20 text-blue-300 text-xs font-mono font-bold border border-blue-500/30">
-                    MODULE 02
+                    COMPANION 02
                   </span>
                   <span class="text-xs font-mono text-slate-400">GCP Native Infrastructure</span>
                 </div>
@@ -382,7 +408,7 @@ export const modulesHtml = `    <!-- COMMERCIAL PRODUCT CATALOG SECTION (3 MODUL
               <div class="lg:col-span-7 space-y-4">
                 <div class="flex items-center gap-3">
                   <span class="px-3 py-1 rounded-full bg-cyan-500/20 text-cyan-300 text-xs font-mono font-bold border border-cyan-500/30">
-                    MODULE 03
+                    COMPANION 03
                   </span>
                   <span class="text-xs font-mono text-slate-400">WebRTC Avatar Executive</span>
                 </div>
@@ -405,7 +431,7 @@ export const modulesHtml = `    <!-- COMMERCIAL PRODUCT CATALOG SECTION (3 MODUL
                   </div>
                   <div class="bg-slate-900/80 p-3 rounded-xl border border-slate-800">
                     <div class="text-cyan-400 font-bold mb-1"><i class="fa-solid fa-headset mr-1.5"></i> Sub-500ms WebRTC CVI</div>
-                    <div class="text-slate-400 text-[11px]">Pipecat + Tavus Dual Room architecture driving speech &rarr; LLM &rarr; lip-synced video rendering.</div>
+                    <div class="text-slate-400 text-[11px]">Pipecat + Tavus Dual Room architecture driving speech $\\rightarrow$ LLM $\\rightarrow$ lip-synced video rendering.</div>
                   </div>
                 </div>
 
@@ -520,12 +546,29 @@ export const modulesHtml = `    <!-- COMMERCIAL PRODUCT CATALOG SECTION (3 MODUL
         
         <div class="text-center max-w-3xl mx-auto mb-14">
           <span class="web3-badge font-mono uppercase tracking-widest text-cyan-300 px-3 py-1 rounded-full text-xs inline-block mb-3">
-            Web3 Agent Marketplace Roadmap
+            Web3 Token & Marketplace Ecosystem
           </span>
-          <h2 class="text-3xl sm:text-4xl font-extrabold text-white">Decentralized Web3 Ecosystem</h2>
+          <h2 class="text-3xl sm:text-4xl font-extrabold text-white">Web3 Marketplace & Job/Task Arena</h2>
           <p class="text-slate-400 text-sm mt-2">
-            Leveraging our domain infrastructure anchored at <strong>AI-Business-Employees.com</strong>, AI Staffing Solution Consultants LLC is building a peer-to-peer Web3 agent marketplace and specialized crypto trading agents.
+            Anchored at <strong>AI-Business-Employees.com</strong>, AI Staffing Solution Consultants LLC is building an inclusive Web3 token ecosystem powering peer-to-peer agent marketplaces and the Job/Task Arena.
           </p>
+        </div>
+
+        <!-- Token Unveil Announcement Panel -->
+        <div class="glass-panel p-8 rounded-3xl border border-amber-500/40 bg-gradient-to-r from-purple-950/40 via-slate-900 to-amber-950/30 mb-12 flex flex-col md:flex-row items-center justify-between gap-6">
+          <div class="space-y-2 text-center md:text-left">
+            <span class="px-3 py-1 rounded-full bg-amber-500/20 text-amber-300 font-mono text-xs font-bold border border-amber-500/30">
+              <i class="fa-solid fa-calendar-check mr-1.5"></i> PRE-RELEASE TOKEN UNVEIL: FEB 15, 2027
+            </span>
+            <h3 class="text-xl sm:text-2xl font-bold text-white">Exclusive Access for Web3 Token Holders</h3>
+            <p class="text-xs text-slate-300 max-w-2xl leading-relaxed">
+              Platform technology and Superuser Companion upgrades will be made available exclusively to Web3 Token holders—forming the financial and execution backbone of our Job/Task Arena.
+            </p>
+          </div>
+
+          <a href="https://cal.com/ai-staffing-solution-consultants/aissc-investment-opportunities" target="_blank" rel="noopener noreferrer" class="whitespace-nowrap px-6 py-3.5 rounded-xl bg-gradient-to-r from-amber-500 via-purple-600 to-cyan-500 hover:opacity-95 text-white font-mono font-bold text-xs shadow-xl transition-all flex items-center gap-2">
+            <i class="fa-solid fa-lock-open"></i> Book Investment Call
+          </a>
         </div>
 
         <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -544,9 +587,9 @@ export const modulesHtml = `    <!-- COMMERCIAL PRODUCT CATALOG SECTION (3 MODUL
             <div class="w-12 h-12 rounded-xl bg-cyan-500/20 text-cyan-300 flex items-center justify-center text-xl mb-4 border border-cyan-500/40">
               <i class="fa-solid fa-store"></i>
             </div>
-            <h3 class="text-lg font-bold text-white mb-2">P2P Web3 Agent Marketplace</h3>
+            <h3 class="text-lg font-bold text-white mb-2">Job / Task Arena & P2P Marketplace</h3>
             <p class="text-xs text-slate-300 leading-relaxed">
-              Enabling organizations and developers to list, trade, and license pre-configured SUAD agent personas directly through smart contracts and Web3 domain routing.
+              Enabling token holders to list, trade, and deploy multi-agent workers directly through smart contracts and Web3 domain routing.
             </p>
           </div>
 
@@ -598,7 +641,7 @@ export const pricingHtml = `    <!-- PRICING & LICENSING SECTION -->
               </ul>
             </div>
 
-            <button data-demo="Module 1 - Thought Layer" class="mt-8 w-full py-3 rounded-xl border border-slate-700 hover:border-slate-600 text-white font-semibold text-xs transition-all">
+            <button onclick="openDemoModal('Module 1 - Thought Layer')" class="mt-8 w-full py-3 rounded-xl border border-slate-700 hover:border-slate-600 text-white font-semibold text-xs transition-all">
               Acquire Module 1 License
             </button>
           </div>
@@ -628,7 +671,7 @@ export const pricingHtml = `    <!-- PRICING & LICENSING SECTION -->
               </ul>
             </div>
 
-            <button data-demo="Full Startup Suite" class="mt-8 w-full py-3 rounded-xl bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-500 hover:to-purple-500 text-white font-semibold text-xs shadow-lg shadow-purple-600/30 transition-all">
+            <button onclick="openDemoModal('Full Startup Suite')" class="mt-8 w-full py-3 rounded-xl bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-500 hover:to-purple-500 text-white font-semibold text-xs shadow-lg shadow-purple-600/30 transition-all">
               Deploy Full Suite Now
             </button>
           </div>
@@ -652,16 +695,15 @@ export const pricingHtml = `    <!-- PRICING & LICENSING SECTION -->
               </ul>
             </div>
 
-            <button data-demo="Enterprise VPC" class="mt-8 w-full py-3 rounded-xl border border-slate-700 hover:border-slate-600 text-white font-semibold text-xs transition-all">
-              Schedule Enterprise Consultation
-            </button>
+            <a href="https://cal.com/ai-staffing-solution-consultants/aissc-investment-opportunities" target="_blank" rel="noopener noreferrer" class="mt-8 w-full py-3 rounded-xl border border-cyan-700/80 hover:border-cyan-500 text-cyan-300 font-semibold text-xs text-center transition-all flex items-center justify-center gap-2">
+              <i class="fa-solid fa-calendar"></i> Book Consultation Briefing
+            </a>
           </div>
 
         </div>
 
       </div>
-    </section>
-`;
+    </section>`;
 export const footerHtml = `
   <!-- Footer -->
   <footer class="bg-slate-950 border-t border-slate-800 py-12 text-xs text-slate-400">
@@ -681,8 +723,8 @@ export const footerHtml = `
               <i class="fa-brands fa-linkedin"></i> LinkedIn Profile
             </a>
             <span class="text-slate-600">|</span>
-            <a href="https://github.com/AI-Staffing-Solution-Consultants-LLC" target="_blank" rel="noopener noreferrer" class="text-purple-400 hover:underline flex items-center gap-1">
-              <i class="fa-brands fa-github"></i> GitHub Org
+            <a href="https://cal.com/ai-staffing-solution-consultants/aissc-investment-opportunities" target="_blank" rel="noopener noreferrer" class="text-cyan-300 hover:underline flex items-center gap-1">
+              <i class="fa-solid fa-calendar-days"></i> Investment Call
             </a>
           </div>
         </div>
