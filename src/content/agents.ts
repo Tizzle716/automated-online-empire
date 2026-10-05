@@ -80,8 +80,8 @@ export type Agent = { icon: string; name: string; category: string; catLabel: st
     // Generate up to 284 total agent skill cards
     
     while (AGENTS_DATABASE.length < 284) {
-      const cat = DIVISIONS[AGENTS_DATABASE.length % DIVISIONS.length];
-      const skillName = EXTRA_SKILLS[AGENTS_DATABASE.length % EXTRA_SKILLS.length];
+      const cat = DIVISIONS[AGENTS_DATABASE.length % DIVISIONS.length]!;
+      const skillName = EXTRA_SKILLS[AGENTS_DATABASE.length % EXTRA_SKILLS.length]!;
       AGENTS_DATABASE.push({
         icon: "fa-robot",
         name: `${DIV_LABELS[cat]} Specialist #${AGENTS_DATABASE.length + 1}`,
