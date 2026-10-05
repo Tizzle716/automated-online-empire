@@ -86,7 +86,7 @@ export type Agent = { icon: string; name: string; category: string; catLabel: st
         icon: "fa-robot",
         name: `${DIV_LABELS[cat]} Specialist #${AGENTS_DATABASE.length + 1}`,
         category: cat,
-        catLabel: DIV_LABELS[cat],
+        catLabel: DIV_LABELS[cat]!,
         spec: `${skillName}, automated workflow execution, enterprise compliance.`,
         when: "High-volume autonomous task execution in multi-agent fleets."
       });
