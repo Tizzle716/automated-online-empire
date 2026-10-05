@@ -8,3 +8,4 @@
 > Commits you push to the connected branch sync back to Lovable and show up in
 > the editor, so keep the branch in a working state.
 <!-- LOVABLE:END -->
+- Static marketing markup lives as HTML strings in src/content/sections.ts; interactive parts (skills directory, podcast, modals) are React in src/routes/index.tsx — keeps the ported design faithful while interactivity stays in React.
