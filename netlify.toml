@@ -1,17 +1,13 @@
-# STREAMING_CHUNK:Configuring build settings and publish directory...
 [build]
-  command = "bun run build"
-  publish = ".output/public"
+command = "bun run build"
+publish = "dist"
 
-# STREAMING_CHUNK:Configuring functions and environment defaults...
 [build.environment]
-  # Ensures Bun or Node environment settings are properly aligned
-  NODE_VERSION = "20"
+NODE_VERSION = "20"
 
-# STREAMING_CHUNK:Configuring redirects for server-side rendering and client routing...
 [[redirects]]
-  from = "/*"
-  to = "/.netlify/functions/server"
-  status = 200
-  conditions = {Role = ["*"]}
-  force = false
+from = "/"
+to = "/.netlify/functions/server"
+status = 200
+conditions = {Role = [""]}
+force = false
