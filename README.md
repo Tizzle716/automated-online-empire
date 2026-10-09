@@ -1,6 +1,6 @@
 # Start Here
 
-Lets start with this
+[![Netlify Status](https://api.netlify.com/api/v1/badges/b5aa73d8-6488-4855-9de7-3ac5786f84ab/deploy-status)](https://app.netlify.com/projects/aissc-ai-business-employees-edu/deploys)
 
 This project was built with [Lovable](https://lovable.dev).
 
